@@ -1,0 +1,39 @@
+=pod
+
+=head1 NAME
+
+Catalyst::Helper::Deploy::DreamHost - Create a couple files useful when deploying to DreamHost
+
+=head1 VERSION
+
+version 0.001
+
+=head1 SYNOPSIS
+
+./script/myapp_create.pl Deploy::DreamHost
+
+=head1 DESCRIPTION
+
+This is a Catalyst helper module that builds a basic htaccess and
+dispatch.fcgi that you can use to assist in deploying your Catalyst app to
+DreamHost.
+
+VERY EARLY CODE: things may yet change, but shouldn't impact older versions
+(unless you rerun the helper, natch).
+
+=head1 TODO
+
+Git hook?
+
+=head1 AUTHOR
+
+Chris Weyl <cweyl@alumni.drew.edu>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is Copyright (c) 2011 by Chris Weyl.
+
+This is free software, licensed under:
+
+  The GNU Lesser General Public License, Version 2.1, February 1999
+

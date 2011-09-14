@@ -2,6 +2,6 @@
 
 use Test::More tests => 1;
 
-BEGIN { use_ok 'Catalyst-Helper-Deploy-DreamHost' }
+BEGIN { use_ok 'Catalyst::Helper::Deploy::DreamHost' }
 
-diag("Testing Catalyst-Helper-Deploy-DreamHost $Dist::Zilla::Plugin::lib/Catalyst/Helper/Deploy/DreamHost.pm::VERSION, Perl $], $^X");
+diag("Testing Catalyst::Helper::Deploy::DreamHost $Catalyst::Helper::Deploy::DreamHost::VERSION, Perl $], $^X");
